@@ -1,3 +1,16 @@
+
+
+ // Your web app's Firebase configuration
+ const firebaseConfig = {
+  apiKey: "AIzaSyBh-LmbX6BS1ECuaQ2eH-ejw20jAjPJnxg",
+  authDomain: "kwitter-4d9d4.firebaseapp.com",
+  databaseURL: "https://kwitter-4d9d4-default-rtdb.firebaseio.com",
+  projectId: "kwitter-4d9d4",
+  storageBucket: "kwitter-4d9d4.appspot.com",
+  messagingSenderId: "127448574130",
+  appId: "1:127448574130:web:d7ced9394dbc72032201ab"
+};
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
   user_name = localStorage.getItem("user_name");
@@ -26,6 +39,7 @@ function getData() {  firebase.database().ref("/").on('value', function(snapshot
   });
 
 }
+
 getData();
 
 function redirectToRoomName(name)

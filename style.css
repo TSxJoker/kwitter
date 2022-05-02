@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+background-image: linear-gradient(to right top, #000000, #000000, #000000, #000000, #000000);
 }
 
 .header
@@ -48,7 +48,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #output
 {
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+	padding: 10px; width:80%;background: rgb(4, 254, 116);border-radius: 15px;
 }
 
 .input_div_room_page
@@ -58,7 +58,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 .input_div label
 {
-	color: white;font-size: 20px;
+	color: rgb(51, 255, 0);font-size: 20px;
 }
 
 
@@ -81,7 +81,7 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 }
 .color_white
 {
-	color: white
+	color: rgb(255, 0, 0)
 }
 
 .user_tick
